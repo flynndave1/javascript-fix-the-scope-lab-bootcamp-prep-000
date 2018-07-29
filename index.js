@@ -1,5 +1,10 @@
-var animal = 'dog'
 
+var animal = 'dog';
+const two = 2;
+const nn = Math.floor(Math.random() * 1000);
+var nnn;
+var theFunk;
+var jester2
 function myAnimal() {
   return animal
 }
@@ -11,19 +16,35 @@ function yourAnimal() {
   return animal
 }
 
+nnn =nn
+console.log(nnn);
 function add2(n) {
   return n + two
 
   // Feel free to move things around!
-  const two = 2
+
 }
 
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
+
+
+var funkyFunction = function outside() {
+  return function inside() {
+     return "FUNKY!"
   }
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
-var theFunk = funkyFunction
+
+nnn = add2(nn);
+console.log(nnn);
+console.log(funkyFunction()());
+
+theFunk = funkyFunction()()
+console.log(theFunk)
+
+
+
+
+
+
