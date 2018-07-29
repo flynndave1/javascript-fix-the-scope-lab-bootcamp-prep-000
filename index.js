@@ -8,19 +8,19 @@ var jester2
 
 
 function myAnimal() {
-  
-  return animal
+    return animal
 }
 
 console.log(myAnimal())
 
 function yourAnimal() {
+   var animal = "cat"
   // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
   return animal
 }
-
+console.log(yourAnimal())
 nnn =nn
 console.log(nnn);
 function add2(n) {
