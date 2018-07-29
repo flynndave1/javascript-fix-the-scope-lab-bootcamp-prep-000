@@ -5,9 +5,14 @@ const nn = Math.floor(Math.random() * 1000);
 var nnn;
 var theFunk;
 var jester2
+
+
 function myAnimal() {
+  
   return animal
 }
+
+console.log(myAnimal())
 
 function yourAnimal() {
   // How can we make sure that this function
